@@ -9,7 +9,7 @@ client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
 @app.route("/")
 def home():
-    return {"message": "Flask + Gemini rodando na aws 🚀"}
+    return {"message": "Flask + Gemini rodando na aws 2 🚀"}
 
 @app.route("/chat", methods=["POST"])
 def chat():
